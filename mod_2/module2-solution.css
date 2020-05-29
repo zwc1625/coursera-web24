@@ -4,6 +4,7 @@
 
 h1 {
   margin-bottom:50px;
+  text-align: center;
 }
 
 p {
@@ -20,8 +21,20 @@ p {
 
 }
 
-.bg {
+.bgChicken {
   background-color: black;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.bgBeef {
+  background-color: lightblue;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.bgSushi {
+  background-color: lightgreen;
   border: 1px solid black;
   margin: 10px;
 }
