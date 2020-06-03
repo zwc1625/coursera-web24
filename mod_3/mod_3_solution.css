@@ -1,0 +1,119 @@
+#header-nav {
+  background-color: pink;
+  border-radius: 0;
+  border: 0;
+}
+
+
+h1 {
+	text-align:center;
+}
+
+
+.chicken {
+	height:300px;
+	width:80%;
+	background-color:lightblue;
+	margin-right: auto;
+	margin-left:auto;
+	margin-top:30px;
+}
+
+.beef {
+	height:300px;
+	width:80%;
+	background-color:lightgreen;
+	margin-right: auto;
+	margin-left:auto;
+	margin-top:30px;
+}
+
+.sushi {
+	height:300px;
+	width:80%;
+	background-color:lightgrey;
+	margin-right: auto;
+	margin-left:auto;
+	margin-top:30px;
+}
+
+#chicken {
+	text-align: center;
+	font-size: 30px;
+	font-style: italic;
+	padding:10px;
+}
+
+#beef {
+	text-align: center;
+	font-size: 30px;
+	font-style: italic;
+	padding:10px;
+}
+
+#sushi {
+	text-align: center;
+	font-size: 30px;
+	font-style: italic;
+	padding:10px;
+
+}
+
+.chicken p {
+	font-size:15px;
+	font-style:italic;
+	margin-top:20px;
+}
+
+.beef p {
+	font-size:15px;
+	font-style:italic;
+	margin-top:20px;
+}
+
+
+.sushi p {
+	font-size:15px;
+	font-style:italic;
+	margin-top:20px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+div#collapsable-nav {
+	text-align:center;
+
+}
+
+div.navbar-header h1 {
+	clear:right;
+	vertical-align: middle;
+}
+
+button.navbar-header-collapsed {
+	vertical-align: middle;
+	margin-top:20px;
+	margin-bottom: auto;
+}
+
+@media only screen and (min-width:768px) {
+	ul#nav-list {
+		display:none;
+	}
+}
+
+div#collapsable-nav span {
+	font-size:20px;
+
+}
