@@ -12,6 +12,8 @@
 // var byeSpeaker =
 
 // DO NOT attach the speakWord variable to the 'byeSpeaker' object.
+// trying to see if this works // 
+
 
 (function (window){
 	var speakWord = "Good Bye";
@@ -27,7 +29,7 @@
 }
 
 	window.byeSpeaker = byeSpeaker
-	
+
 }) (window);
 // STEP 9: Expose the 'byeSpeaker' object to the global scope. Name it
 // 'byeSpeaker' on the global scope as well.
